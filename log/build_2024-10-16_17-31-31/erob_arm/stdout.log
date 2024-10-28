@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/erob_arm/erob_arm.egg-info
+writing ../../build/erob_arm/erob_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/erob_arm/erob_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/erob_arm/erob_arm.egg-info/entry_points.txt
+writing requirements to ../../build/erob_arm/erob_arm.egg-info/requires.txt
+writing top-level names to ../../build/erob_arm/erob_arm.egg-info/top_level.txt
+writing manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build
+creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib
+creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm
+copying erob_arm/__init__.py -> /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm
+running install
+running install_lib
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm
+copying /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm/__init__.py -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm
+byte-compiling /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index/packages
+copying resource/erob_arm -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/launch
+copying launch/display.launch.py -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/launch
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+copying urdf/erob2_motor.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+copying urdf/erob_arm.urdf.xacro -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+copying urdf/erob_arm2.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+copying urdf/erob_arm.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+copying urdf/erob.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_3.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_6.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_5.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_2.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_6.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_5.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_1.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_2.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/base_link.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/base_link.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/finger.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_3.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/hand.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/hand.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/finger.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_1.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_4.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+copying meshes/Link_4.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+running install_egg_info
+Copying ../../build/erob_arm/erob_arm.egg-info to /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log'

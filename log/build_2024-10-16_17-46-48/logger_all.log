@@ -1,0 +1,438 @@
+[0.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.050s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ffb0064f130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffb0064e6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffb0064e6b0>>, mixin_verb=('build',))
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.124s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erobman/IGH_EtherCAT/eRob_arm'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erob_arm' with type 'ros.ament_python' and name 'erob_arm'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_arm_control) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erob_arm_control' with type 'ros.ament_cmake' and name 'erob_arm_control'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erob_position_control) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erob_position_control' with type 'ros.ament_cmake' and name 'erob_position_control'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erobo3' with type 'ros.ament_cmake' and name 'erobo3'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/erobo3_control) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erobo3_control' with type 'ros.ament_cmake' and name 'erobo3_control'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/twojoints_test) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twojoints_test' with type 'ros.ament_cmake' and name 'twojoints_test'
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/erobman/IGH_EtherCAT/ros2_MoveIt/install
+[0.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/erobman/IGH_EtherCAT/ros2_ethercat/install
+[0.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_target' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'erob_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm', 'symlink_install': False, 'test_result_base': None}
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_target' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'erob_arm_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'erob_arm_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm_control', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erob_position_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'erob_position_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_position_control', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'erobo3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'erobo3_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'erobo3_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'twojoints_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'twojoints_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test', 'merge_install': False, 'path': '/home/erobman/IGH_EtherCAT/eRob_arm/src/twojoints_test', 'symlink_install': False, 'test_result_base': None}
+[0.169s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.170s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm' with build type 'ament_python'
+[0.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_arm', 'ament_prefix_path')
+[0.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/ament_prefix_path.ps1'
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/ament_prefix_path.dsv'
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/ament_prefix_path.sh'
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm': PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/erob_arm build --build-base /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build install --record /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log --single-version-externally-managed install_data
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm' returned '0': PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/erob_arm build --build-base /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build install --record /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log --single-version-externally-managed install_data
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm' for CMake module files
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm' for CMake config files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/bin'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/pkgconfig/erob_arm.pc'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages'
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_arm', 'pythonpath')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/pythonpath.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/pythonpath.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/hook/pythonpath.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/bin'
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erob_arm)
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/package.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/package.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/package.sh'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/package.bash'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/package.zsh'
+[0.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/colcon-core/packages/erob_arm)
+[0.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm_control' with build type 'ament_cmake'
+[0.604s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm_control'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_position_control' with build type 'ament_cmake'
+[0.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_position_control'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.609s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3' with build type 'ament_cmake'
+[0.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control' with build type 'ament_cmake'
+[0.612s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/twojoints_test' with build type 'ament_cmake'
+[0.615s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erobman/IGH_EtherCAT/eRob_arm/src/twojoints_test'
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control -- -j32 -l32
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control -- -j32 -l32
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3 -- -j32 -l32
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control -- -j32 -l32
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test -- -j32 -l32
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control -- -j32 -l32
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control -- -j32 -l32
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3 -- -j32 -l32
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control -- -j32 -l32
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test -- -j32 -l32
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control
+[0.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3
+[0.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erob_arm_control)
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control' for CMake module files
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control' for CMake config files
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm_control
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_arm_control', 'cmake_prefix_path')
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.ps1'
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.dsv'
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.sh'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/bin'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/lib/pkgconfig/erob_arm_control.pc'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/lib/python3.10/site-packages'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/bin'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.sh'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.zsh'
+[0.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/colcon-core/packages/erob_arm_control)
+[0.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erob_position_control)
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control' for CMake module files
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_position_control
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control' for CMake config files
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_position_control', 'cmake_prefix_path')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/bin'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/lib/pkgconfig/erob_position_control.pc'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/lib/python3.10/site-packages'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/bin'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.bash'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.zsh'
+[0.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/colcon-core/packages/erob_position_control)
+[0.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twojoints_test)
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test' for CMake module files
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test' for CMake config files
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('twojoints_test', 'cmake_prefix_path')
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.sh'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/bin'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/lib/pkgconfig/twojoints_test.pc'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/lib/python3.10/site-packages'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/bin'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.bash'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.zsh'
+[0.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/colcon-core/packages/twojoints_test)
+[0.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erobo3)
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3' for CMake module files
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3' for CMake config files
+[0.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('erobo3', 'cmake_prefix_path')
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.ps1'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.dsv'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.sh'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/bin'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/lib/pkgconfig/erobo3.pc'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/lib/python3.10/site-packages'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/bin'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.dsv'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.sh'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.bash'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.zsh'
+[0.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/colcon-core/packages/erobo3)
+[0.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erobo3_control)
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control' for CMake module files
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('erobo3_control', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.ps1'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.sh'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/bin'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/lib/pkgconfig/erobo3_control.pc'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/lib/python3.10/site-packages'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/bin'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.sh'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.bash'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.zsh'
+[0.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/colcon-core/packages/erobo3_control)
+[0.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erob_arm_control)
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control' for CMake module files
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_arm_control', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/bin'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/lib/pkgconfig/erob_arm_control.pc'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/lib/python3.10/site-packages'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/bin'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.sh'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/erob_arm_control/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm_control/share/colcon-core/packages/erob_arm_control)
+[0.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erob_position_control)
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control' for CMake module files
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control' for CMake config files
+[0.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('erob_position_control', 'cmake_prefix_path')
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/hook/cmake_prefix_path.sh'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/bin'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/lib/pkgconfig/erob_position_control.pc'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/lib/python3.10/site-packages'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/bin'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/erob_position_control/package.zsh'
+[0.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_position_control/share/colcon-core/packages/erob_position_control)
+[0.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twojoints_test)
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test' for CMake module files
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test' for CMake config files
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('twojoints_test', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/hook/cmake_prefix_path.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/bin'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/lib/pkgconfig/twojoints_test.pc'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/lib/python3.10/site-packages'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/bin'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.bash'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.zsh'
+[0.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/colcon-core/packages/twojoints_test)
+[0.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erobo3)
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3' for CMake module files
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('erobo3', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/lib/pkgconfig/erobo3.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/bin'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.sh'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.zsh'
+[0.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/colcon-core/packages/erobo3)
+[0.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erobo3_control)
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control' for CMake module files
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('erobo3_control', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/hook/cmake_prefix_path.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/lib/pkgconfig/erobo3_control.pc'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/lib/python3.10/site-packages'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/bin'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.sh'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.bash'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.zsh'
+[0.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/colcon-core/packages/erobo3_control)
+[0.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.707s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.709s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.714s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erobman/IGH_EtherCAT/eRob_arm/install/local_setup.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erobman/IGH_EtherCAT/eRob_arm/install/_local_setup_util_ps1.py'
+[0.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erobman/IGH_EtherCAT/eRob_arm/install/setup.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erobman/IGH_EtherCAT/eRob_arm/install/local_setup.sh'
+[0.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erobman/IGH_EtherCAT/eRob_arm/install/_local_setup_util_sh.py'
+[0.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erobman/IGH_EtherCAT/eRob_arm/install/setup.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erobman/IGH_EtherCAT/eRob_arm/install/local_setup.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erobman/IGH_EtherCAT/eRob_arm/install/setup.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erobman/IGH_EtherCAT/eRob_arm/install/local_setup.zsh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erobman/IGH_EtherCAT/eRob_arm/install/setup.zsh'

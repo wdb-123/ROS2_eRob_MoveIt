@@ -1,0 +1,45 @@
+[0.011s] Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control -- -j32 -l32
+[0.032s] Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control -- -j32 -l32
+[0.054s] Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control
+[0.061s] -- Install configuration: ""
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/ament_index/resource_index/package_run_dependencies/erobo3_control
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/ament_index/resource_index/parent_prefix_path/erobo3_control
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/environment/path.sh
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/environment/path.dsv
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/local_setup.bash
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/local_setup.sh
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/local_setup.zsh
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/local_setup.dsv
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.dsv
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/ament_index/resource_index/packages/erobo3_control
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/cmake/erobo3_controlConfig.cmake
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/cmake/erobo3_controlConfig-version.cmake
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/package.xml
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/rsp.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/setup_assistant.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/warehouse_db.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/cpu_isolation.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/demo.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/moveit_rviz.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/static_virtual_joint_tfs.launch.py
+[0.062s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/test.launch.py
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/spawn_controllers.launch.py
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/launch/move_group.launch.py
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/joint_limits.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/eRobo3.ros2_control.xacro
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/moveit.rviz
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/kinematics.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/zeroErr.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/eRobo3.srdf
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/moveit_controllers.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/zeroErr1.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/ros2_controllers.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/initial_positions.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/pilz_cartesian_limits.yaml
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/config/eRobo3.urdf.xacro
+[0.063s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3_control/share/erobo3_control/.setup_assistant
+[0.074s] Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3_control

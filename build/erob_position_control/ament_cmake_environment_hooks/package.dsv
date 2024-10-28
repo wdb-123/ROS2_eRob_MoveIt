@@ -1,0 +1,4 @@
+source;share/erob_position_control/local_setup.bash
+source;share/erob_position_control/local_setup.dsv
+source;share/erob_position_control/local_setup.sh
+source;share/erob_position_control/local_setup.zsh

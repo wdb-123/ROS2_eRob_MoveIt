@@ -1,0 +1,8 @@
+source;share/erobo3/hook/cmake_prefix_path.ps1
+source;share/erobo3/hook/cmake_prefix_path.dsv
+source;share/erobo3/hook/cmake_prefix_path.sh
+source;share/erobo3/local_setup.bash
+source;share/erobo3/local_setup.dsv
+source;share/erobo3/local_setup.ps1
+source;share/erobo3/local_setup.sh
+source;share/erobo3/local_setup.zsh

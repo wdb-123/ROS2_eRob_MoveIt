@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/erobman/IGH_EtherCAT/eRob_arm/build/erobo3
+-- Install configuration: ""
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/ament_index/resource_index/package_run_dependencies/erobo3
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/ament_index/resource_index/parent_prefix_path/erobo3
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/environment/ament_prefix_path.sh
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/environment/ament_prefix_path.dsv
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/environment/path.sh
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/environment/path.dsv
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/local_setup.bash
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/local_setup.sh
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/local_setup.zsh
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/local_setup.dsv
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.dsv
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/ament_index/resource_index/packages/erobo3
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/cmake/erobo3Config.cmake
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/cmake/erobo3Config-version.cmake
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/package.xml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/rsp.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/setup_assistant.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/warehouse_db.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/demo.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/moveit_rviz.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/__pycache__
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/__pycache__/demo.launch.cpython-310.pyc
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/spawn_controllers.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/launch/move_group.launch.py
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/joint_limits.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/eRobo3.ros2_control.xacro
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/moveit.rviz
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/kinematics.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/zeroErr.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/eRobo3.srdf
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/moveit_controllers.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/ros2_controllers.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/initial_positions.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/pilz_cartesian_limits.yaml
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/config/eRobo3.urdf.xacro
+-- Installing: /home/erobman/IGH_EtherCAT/eRob_arm/install/erobo3/share/erobo3/.setup_assistant

@@ -1,0 +1,60 @@
+[0.275s] Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm': PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/erob_arm build --build-base /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build install --record /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log --single-version-externally-managed install_data
+[0.380s] running egg_info
+[0.380s] creating ../../build/erob_arm/erob_arm.egg-info
+[0.380s] writing ../../build/erob_arm/erob_arm.egg-info/PKG-INFO
+[0.380s] writing dependency_links to ../../build/erob_arm/erob_arm.egg-info/dependency_links.txt
+[0.380s] writing entry points to ../../build/erob_arm/erob_arm.egg-info/entry_points.txt
+[0.380s] writing requirements to ../../build/erob_arm/erob_arm.egg-info/requires.txt
+[0.380s] writing top-level names to ../../build/erob_arm/erob_arm.egg-info/top_level.txt
+[0.380s] writing manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+[0.381s] reading manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+[0.381s] writing manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+[0.381s] running build
+[0.381s] running build_py
+[0.381s] creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build
+[0.381s] creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib
+[0.381s] creating /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm
+[0.381s] copying erob_arm/__init__.py -> /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm
+[0.381s] running install
+[0.381s] running install_lib
+[0.381s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm
+[0.382s] copying /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build/lib/erob_arm/__init__.py -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm
+[0.382s] byte-compiling /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm/__init__.py to __init__.cpython-310.pyc
+[0.382s] running install_data
+[0.382s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index
+[0.382s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index
+[0.382s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index/packages
+[0.382s] copying resource/erob_arm -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/ament_index/resource_index/packages
+[0.382s] copying package.xml -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm
+[0.382s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/launch
+[0.382s] copying launch/display.launch.py -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/launch
+[0.382s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.382s] copying urdf/erob2_motor.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.382s] copying urdf/erob_arm.urdf.xacro -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.382s] copying urdf/erob_arm2.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.382s] copying urdf/erob_arm.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.382s] copying urdf/erob.urdf -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/urdf
+[0.383s] creating /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.383s] copying meshes/Link_3.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.385s] copying meshes/Link_6.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.385s] copying meshes/Link_5.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.387s] copying meshes/Link_2.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.389s] copying meshes/Link_6.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.390s] copying meshes/Link_5.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.391s] copying meshes/Link_1.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.392s] copying meshes/Link_2.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.394s] copying meshes/base_link.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.395s] copying meshes/base_link.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.396s] copying meshes/finger.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.396s] copying meshes/Link_3.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.398s] copying meshes/hand.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.399s] copying meshes/hand.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.399s] copying meshes/finger.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.399s] copying meshes/Link_1.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.400s] copying meshes/Link_4.stl -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.401s] copying meshes/Link_4.dae -> /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/share/erob_arm/meshes
+[0.403s] running install_egg_info
+[0.404s] Copying ../../build/erob_arm/erob_arm.egg-info to /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm-0.0.0-py3.10.egg-info
+[0.404s] running install_scripts
+[0.413s] writing list of installed files to '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log'
+[0.423s] Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_arm' returned '0': PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/erob_arm build --build-base /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/build install --record /home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log --single-version-externally-managed install_data

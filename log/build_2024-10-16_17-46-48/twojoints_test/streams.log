@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test -- -j32 -l32
+[0.032s] Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test -- -j32 -l32
+[0.051s] Invoking command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test
+[0.057s] -- Install configuration: ""
+[0.057s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/ament_index/resource_index/package_run_dependencies/twojoints_test
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/ament_index/resource_index/parent_prefix_path/twojoints_test
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/environment/path.sh
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/environment/path.dsv
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/local_setup.bash
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/local_setup.sh
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/local_setup.zsh
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/local_setup.dsv
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.dsv
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/ament_index/resource_index/packages/twojoints_test
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/cmake/twojoints_testConfig.cmake
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/cmake/twojoints_testConfig-version.cmake
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/package.xml
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/rsp.launch.py
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/setup_assistant.launch.py
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/warehouse_db.launch.py
+[0.058s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/demo.launch.py
+[0.059s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/moveit_rviz.launch.py
+[0.059s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/static_virtual_joint_tfs.launch.py
+[0.059s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/spawn_controllers.launch.py
+[0.059s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/launch/move_group.launch.py
+[0.059s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/joint_limits.yaml
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/eRobo3.ros2_control.xacro
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/moveit.rviz
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/kinematics.yaml
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/zeroErr.yaml
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/eRobo3.srdf
+[0.060s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/moveit_controllers.yaml
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/zeroErr1.yaml
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/ros2_controllers.yaml
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/initial_positions.yaml
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/pilz_cartesian_limits.yaml
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/config/eRobo3.urdf.xacro
+[0.061s] -- Up-to-date: /home/erobman/IGH_EtherCAT/eRob_arm/install/twojoints_test/share/twojoints_test/.setup_assistant
+[0.066s] Invoked command in '/home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test' returned '0': AMENT_PREFIX_PATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/moveit_configs_utils:/home/erobman/IGH_EtherCAT/ros2_MoveIt/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erobman/IGH_EtherCAT/eRob_arm/build/twojoints_test

@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/erob_arm/erob_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/erob_arm/erob_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/erob_arm/erob_arm.egg-info/entry_points.txt
+writing requirements to ../../build/erob_arm/erob_arm.egg-info/requires.txt
+writing top-level names to ../../build/erob_arm/erob_arm.egg-info/top_level.txt
+reading manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/erob_arm/erob_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/erob_arm/erob_arm.egg-info to /home/erobman/IGH_EtherCAT/eRob_arm/install/erob_arm/lib/python3.10/site-packages/erob_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/erobman/IGH_EtherCAT/eRob_arm/build/erob_arm/install.log'
